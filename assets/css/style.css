@@ -424,33 +424,33 @@ footer a {
 /* Buttons */
 
 @media screen and (max-width:699px){
-#backOnTop{
-  position: fixed;
-  bottom: 20px;
-  right: -5px;
-  z-index: 1000;
+  #backOnTop {
+    position: fixed;
+    bottom: 20px;
+    right: -5px;
+    z-index: 1000;
+  }
+
+  #calendar {
+    position: fixed;
+    bottom: 75px;
+    right: -5px;
+    z-index: 1000;
+  }
+
+  #social {
+    position: fixed;
+    bottom: 130px;
+    right: -5px;
+    z-index: 1000;
+  }
 }
 
-#calendar{
-  position: fixed;
-  bottom: 75px;
-  right: -5px;
-  z-index: 1000;
-}
-
-#social{
-  position: fixed;
-  bottom: 130px;
-  right: -5px;
-  z-index: 1000;
-}
-}
-
-#backOnTop a{
+#backOnTop a {
   color: violet;
 }
 
-.sideButtons{
+.sideButtons {
   padding: 10px 15px;
   background-color: white;
   opacity: 0.8;
@@ -460,21 +460,35 @@ footer a {
   border-radius: 10%;
 }
 
-@media screen and (min-width:700px) and (max-width:1199px){
-  #calendar{
+@media screen and (min-width:700px) and (max-width:1199px) {
+  #backOnTop {
+    position: fixed;
+    bottom: 20px;
+    right: -5px;
+    z-index: 1000;
+  }
+
+  #calendar {
     position: fixed;
     bottom: 300px;
     right: -5px;
   }
-  
-  #social{
+
+  #social {
     position: fixed;
     bottom: 250px;
     right: -5px;
   }
 }
 
-@media screen and (min-width:1200) {
+@media screen and (min-width:1200px) {
+  #backOnTop {
+    position: fixed;
+    bottom: 20px;
+    right: -5px;
+    z-index: 1000;
+  }
+
   #calendar{
     position: fixed;
     bottom: 1100px;
